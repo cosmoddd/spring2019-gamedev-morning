@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.80.43 commit date:2019-02-04, commit time:13:09, hash:38984b10ff7b</authoring_tool>
+    </contributor>
+    <created>2019-02-05T00:29:54</created>
+    <modified>2019-02-05T00:29:54</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_geometries>
+    <geometry id="Cube_002-mesh" name="Cube.002">
+      <mesh>
+        <source id="Cube_002-mesh-positions">
+          <float_array id="Cube_002-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_002-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_002-mesh-normals">
+          <float_array id="Cube_002-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Cube_002-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cube_002-mesh-map-0">
+          <float_array id="Cube_002-mesh-map-0-array" count="72">0.625 0 0.375 0.25 0.375 0 0.625 0.25 0.375 0.5 0.375 0.25 0.625 0.5 0.375 0.75 0.375 0.5 0.625 0.75 0.375 1 0.375 0.75 0.375 0.5 0.125 0.75 0.125 0.5 0.875 0.5 0.625 0.75 0.625 0.5 0.625 0 0.625 0.25 0.375 0.25 0.625 0.25 0.625 0.5 0.375 0.5 0.625 0.5 0.625 0.75 0.375 0.75 0.625 0.75 0.625 1 0.375 1 0.375 0.5 0.375 0.75 0.125 0.75 0.875 0.5 0.875 0.75 0.625 0.75</float_array>
+          <technique_common>
+            <accessor source="#Cube_002-mesh-map-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cube_002-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_002-mesh-positions"/>
+        </vertices>
+        <polylist count="12">
+          <input semantic="VERTEX" source="#Cube_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_002-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_002-mesh-map-0" offset="2" set="0"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>1 0 0 2 0 1 0 0 2 3 1 3 6 1 4 2 1 5 7 2 6 4 2 7 6 2 8 5 3 9 0 3 10 4 3 11 6 4 12 0 4 13 2 4 14 3 5 15 5 5 16 7 5 17 1 0 18 3 0 19 2 0 20 3 1 21 7 1 22 6 1 23 7 2 24 5 2 25 4 2 26 5 3 27 1 3 28 0 3 29 6 4 30 4 4 31 0 4 32 3 5 33 1 5 34 5 5 35</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_animations>
+    <animation id="action_container-Yes" name="Yes">
+      <animation id="Yes_FUnky_transform" name="Yes">
+        <source id="Yes_FUnky_transform-input">
+          <float_array id="Yes_FUnky_transform-input-array" count="40">0.04166662 0.08333331 0.125 0.1666666 0.2083333 0.25 0.2916666 0.3333333 0.375 0.4166666 0.4583333 0.5 0.5416667 0.5833333 0.625 0.6666667 0.7083333 0.75 0.7916667 0.8333333 0.875 0.9166667 0.9583333 1 1.041667 1.083333 1.125 1.166667 1.208333 1.25 1.291667 1.333333 1.375 1.416667 1.458333 1.5 1.541667 1.583333 1.625 1.666667</float_array>
+          <technique_common>
+            <accessor source="#Yes_FUnky_transform-input-array" count="40" stride="1">
+              <param name="TIME" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Yes_FUnky_transform-output">
+          <float_array id="Yes_FUnky_transform-output-array" count="640">1 0 0 -3.103502 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -3.088037 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -3.062934 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -3.028744 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.986019 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.935308 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.877163 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.812134 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.740772 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.663628 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.581252 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.494195 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.403008 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.308241 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.210445 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.110171 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -2.00797 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.904392 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.799988 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.695308 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.590904 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.487326 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.385125 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.28485 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.187055 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.092288 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -1.001101 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.9140441 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.8316679 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.7545235 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.6831617 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.6181331 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.5599873 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.5092766 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.4665515 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.4323623 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.4072595 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.3917942 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.3865161 0 1 0 0 0 0 1 0 0 0 0 1 1 0 0 -0.3865161 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Yes_FUnky_transform-output-array" count="40" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Yes_FUnky_transform-interpolation">
+          <Name_array id="Yes_FUnky_transform-interpolation-array" count="40">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+          <technique_common>
+            <accessor source="#Yes_FUnky_transform-interpolation-array" count="40" stride="1">
+              <param name="INTERPOLATION" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <sampler id="Yes_FUnky_transform-sampler">
+          <input semantic="INPUT" source="#Yes_FUnky_transform-input"/>
+          <input semantic="OUTPUT" source="#Yes_FUnky_transform-output"/>
+          <input semantic="INTERPOLATION" source="#Yes_FUnky_transform-interpolation"/>
+        </sampler>
+        <channel source="#Yes_FUnky_transform-sampler" target="Yes/transform"/>
+      </animation>
+    </animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="Zamboni" name="Zamboni">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_Bone" name="Bone" sid="Bone" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 0 -1 0 0 1 0 0 0 0 0 1</matrix>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">0</tip_y>
+              <tip_z sid="tip_z" type="float">1</tip_z>
+            </technique>
+          </extra>
+        </node>
+        <node id="Yes" name="Yes" type="NODE">
+          <matrix sid="transform">1 0 0 -0.3865161 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_geometry url="#Cube_002-mesh" name="Yes"/>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Zamboni"/>
+  </scene>
+</COLLADA>
