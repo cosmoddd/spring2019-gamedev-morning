@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ShapePhysics : MonoBehaviour
 {
-    public Queue funky;
     public GameObject thisGameObject;
     public Rigidbody objectPhysics;
     public float forceMultiplier = 5f;
