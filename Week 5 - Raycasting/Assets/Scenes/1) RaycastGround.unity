@@ -364,10 +364,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1095432698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44314ca5f5152524cbe04c98bfb473a5, type: 3}
+  m_Script: {fileID: 11500000, guid: c48ae84a0cb8bdf45a9efad183dca1e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rayDistance: 3
+  rayDistance: 2
 --- !u!1 &1991754706
 GameObject:
   m_ObjectHideFlags: 0
