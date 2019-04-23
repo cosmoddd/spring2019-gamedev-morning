@@ -138,12 +138,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 279395193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddb7522b74044714a96963b367b811b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d43fd252496c8f4f84ee6a359f1a890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   generators:
-  - {fileID: 8526591724595464792, guid: d89a2004277828647a3d03c642a46285, type: 3}
-  - {fileID: 8526591724595464792, guid: acab5f296776854498e980d5836b4992, type: 3}
+  - {fileID: 723601295345130557, guid: 12daad5a09537844ebc7866f9bdd98b3, type: 3}
+  - {fileID: 2259429060122515104, guid: f3c4e4f3194d63248a8ac4eb9c04148a, type: 3}
 --- !u!4 &279395195
 Transform:
   m_ObjectHideFlags: 0
@@ -263,7 +263,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.34189212, g: 0.35201582, b: 0.3679245, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}

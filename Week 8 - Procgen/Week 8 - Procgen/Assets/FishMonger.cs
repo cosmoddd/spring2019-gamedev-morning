@@ -22,10 +22,8 @@ public class FishMonger : MonoBehaviour
             GameObject newFish = Instantiate(fishPrefab, new Vector3 (Random.Range(-10f,10f),        // random location
                                                 Random.Range(-10f, 10f),
                                                 Random.Range(-10f,10f)), 
-                                    Quaternion.Euler(0,Random.Range(0,360f), 0));   // random rotation!
+                                               Quaternion.Euler(0,Random.Range(0,360f), 0));   // random rotation!
         
-        
-
             fishClones.Add(newFish);
             i++;  // and don't forget this!!
 

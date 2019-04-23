@@ -14,15 +14,17 @@ public class SpawnGrass : MonoBehaviour
         
         while (i < grassLimit)  // init the while loop
         {
-            //  create the Vector3 'pointer' where the grass will spawn
-            Vector3 spawnPoint = new Vector3(Random.Range(-5f,5f),     // define at the x     
-                                            .5f,                   // define at the y
-                                            Random.Range(-5f,5f)); // define at the z
+        //  create the Vector3 'pointer' where the grass will spawn
+        Vector3 spawnPoint = new Vector3(Random.Range(-5f,5f), // define at the x     
+                                        .5f,                   // define at the y
+                                        Random.Range(-5f,5f)); // define at the z
         
 
         
-            Instantiate(grassPrefab, spawnPoint, Quaternion.Euler(0, Random.Range(0,359f), 0)); // atually spawn it!  (and rotate it)
-            i++;    // increase the counter to advance the spawn (and to avoid crashing on an infinite loop)
+        Instantiate(grassPrefab, 
+                    spawnPoint, 
+                    Quaternion.Euler(0, Random.Range(0,359f), 0)); // atually spawn it!  (and rotate it)
+        i++;    // increase the counter to advance the spawn (avoid crashing on an infinite loop)
         }
         
 
